@@ -1,11 +1,12 @@
 import React from 'react';
-import HookApp from './components/HookApp';
-import CounterApp from './components/useState/CounterApp';
+// import HookApp from './components/HookApp';
+// import CounterApp from './components/useState/CounterApp';
+import CustomCounter from './components/useState/CustomCounter';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CounterApp />
+    <CustomCounter />
   </React.StrictMode>,
   document.getElementById('root'),
 );

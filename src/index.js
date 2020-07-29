@@ -2,12 +2,13 @@ import React from 'react';
 // import HookApp from './components/HookApp';
 // import CounterApp from './components/useState/CounterApp';
 // import CustomCounter from './components/useState/CustomCounter';
-import SimpleForm from './components/useEffect/SimpleForm';
+// import SimpleForm from './components/useEffect/SimpleForm';
+import CustomForm from './components/useEffect/CustomForm';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SimpleForm />
+    <CustomForm />
   </React.StrictMode>,
   document.getElementById('root'),
 );

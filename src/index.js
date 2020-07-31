@@ -4,12 +4,13 @@ import React from 'react';
 // import CustomCounter from './components/useState/CustomCounter';
 // import SimpleForm from './components/useEffect/SimpleForm';
 // import CustomForm from './components/useEffect/CustomForm';
-import CustomHooks from './components/useFetch/CustomHooks';
+// import CustomHooks from './components/useFetch/CustomHooks';
+import UseRef from './components/useRef/UseRef';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CustomHooks />
+    <UseRef />
   </React.StrictMode>,
   document.getElementById('root'),
 );

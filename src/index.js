@@ -1,16 +1,17 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 // import HookApp from './components/HookApp';
 // import CounterApp from './components/useState/CounterApp';
 // import CustomCounter from './components/useState/CustomCounter';
 // import SimpleForm from './components/useEffect/SimpleForm';
 // import CustomForm from './components/useEffect/CustomForm';
 // import CustomHooks from './components/useFetch/CustomHooks';
-import UseRef from './components/useRef/UseRef';
-import ReactDOM from 'react-dom';
+// import UseRef from './components/useRef/UseRef';
+import LayoutEffect from './components/LayoutEffect/LayoutEffect';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseRef />
+    <LayoutEffect />
   </React.StrictMode>,
   document.getElementById('root'),
 );

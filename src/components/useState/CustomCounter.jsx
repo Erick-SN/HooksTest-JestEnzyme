@@ -2,10 +2,10 @@ import React from 'react';
 import { useCounter } from '../../Hooks/useCounter';
 import './counter.css';
 const CustomCounter = () => {
-  const { state, increment, decrement, reset } = useCounter(50);
+  const { counter, increment, decrement, reset } = useCounter(50);
   return (
     <>
-      <h1>Counter Hook {state}</h1>
+      <h1>Counter Hook {counter}</h1>
       <hr />
       <button onClick={() => increment(2)} className='btn'>
         +1

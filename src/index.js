@@ -7,11 +7,12 @@ import ReactDOM from 'react-dom';
 // import CustomForm from './components/useEffect/CustomForm';
 // import CustomHooks from './components/useFetch/CustomHooks';
 // import UseRef from './components/useRef/UseRef';
-import LayoutEffect from './components/LayoutEffect/LayoutEffect';
+// import LayoutEffect from './components/LayoutEffect/LayoutEffect';
+import Memorize from './components/Memos/Memorize';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LayoutEffect />
+    <Memorize />
   </React.StrictMode>,
   document.getElementById('root'),
 );

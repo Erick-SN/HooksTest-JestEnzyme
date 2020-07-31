@@ -8,11 +8,11 @@ import ReactDOM from 'react-dom';
 // import CustomHooks from './components/useFetch/CustomHooks';
 // import UseRef from './components/useRef/UseRef';
 // import LayoutEffect from './components/LayoutEffect/LayoutEffect';
-import Memorize from './components/Memos/Memorize';
-
+// import Memorize from './components/Memos/Memorize';
+import MemoHook from './components/Memos/MemoHook';
 ReactDOM.render(
   <React.StrictMode>
-    <Memorize />
+    <MemoHook />
   </React.StrictMode>,
   document.getElementById('root'),
 );

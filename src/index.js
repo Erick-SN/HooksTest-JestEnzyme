@@ -10,10 +10,11 @@ import ReactDOM from 'react-dom';
 // import LayoutEffect from './components/LayoutEffect/LayoutEffect';
 // import Memorize from './components/Memos/Memorize';
 // import MemoHook from './components/Memos/MemoHook';
-import CallbackHook from './components/Memos/CallbackHook';
+// import CallbackHook from './components/Memos/CallbackHook';
+import Padre from './components/07-tarea-memo/Padre';
 ReactDOM.render(
   <React.StrictMode>
-    <CallbackHook />
+    <Padre />
   </React.StrictMode>,
   document.getElementById('root'),
 );
